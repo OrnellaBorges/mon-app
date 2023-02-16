@@ -1,32 +1,3 @@
 .capsule-app {
     background-color: #282c34;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.logo-container-header {
-    height: 70px;
-}
-
-.logo-container-main {
-    height: 40vmin;
-    width: 100%;
-    text-align: center;
-}
-
-.main-container {
-    height: -webkit-fill-available;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    align-items: center;
-}
-
-.App-main {
-    background-color: #282c34;
-    display: flex;
-    align-items: center;
-    height: -webkit-fill-available;
 }

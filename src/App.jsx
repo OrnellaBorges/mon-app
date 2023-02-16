@@ -4,12 +4,20 @@ import './App.css';
 
 function App() {
     return (
-        <div className="capsule-app">
-            <header className="logo-container-header">
+        <div className="capsule-app h-screen flex flex-col">
+            <header className="h-20">
                 <Logo />
             </header>
-            <div className="main-container">
-                <div className='logo-container-main'>
+            <div
+                className={`
+                flex
+                flex-col
+                justify-center
+                grow
+                text-white
+                items-center
+                `}>
+                <div className='h-40 w-full flex text-center justify-center'>
                     <Logo />
                 </div>
                 <p>
