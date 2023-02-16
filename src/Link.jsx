@@ -1,7 +1,7 @@
 import "./Link.css"
 
-function Link(){
-    return(
+function Link() {
+    return (
         <a
             className="App-link"
             href="https://reactjs.org"
