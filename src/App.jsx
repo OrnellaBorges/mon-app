@@ -3,10 +3,17 @@ import Link from './Link';
 import './App.css';
 
 function App() {
+
+    const handleClickOnLogo = (e)=>{
+        console.log('e', e)
+    }
+
     return (
         <div className="capsule-app h-screen flex flex-col">
-            <header className="h-20">
-                <Logo />
+            <header>
+                <div onClick={(e) => handleClickOnLogo(e)} className="logo-header-container h-20 inline-flex">
+                    <Logo />
+                </div>
             </header>
             <div
                 className={`
